@@ -2,7 +2,7 @@
 ---
 1. Clone the repository
 ```
-git clone https://github.com/Drajad-Kusuma-Adi/MejaKita-Slicing.git
+git clone https://github.com/Drajad-Kusuma-Adi/mejakita-slicing.git
 ```
 2. Install the depedencies
 ```
