@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drajad Kusuma Adi</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/Logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    .roboto-regular {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+</head>
+<body class="roboto-regular">
+  <header class="shadow-lg pt-8">
+    <!-- Top Navbar -->
+    <nav class="grid grid-cols-12 gap-8 w-screen px-16 mb-16">
+      <div class="flex justify-start items-center col-span-8">
+        <a class="mx-4" href="#"><img src="./assets/Logo.svg" alt="Logo" class="w-[64px] h-[64px]"></a>
+        <a class="mx-4" href="#">Home</a>
+        <a class="mx-4 text-[#FF3066]" href="#">Courses</a>
+        <a class="mx-4" href="#">People</a>
+        <a class="mx-4" href="#">Analytics</a>
+      </div>
+      <div class="flex justify-end items-center col-span-4">
+        <button><img src="./assets/Profile.svg" alt="Profile" class="mx-2 w-[24px] h-[24px]"></button>
+        <button><img src="./assets/Bell.svg" alt="Bell" class="mx-2 w-[24px] h-[24px]"></button>
+      </div>
+    </nav>
+
+    <!-- Page Title -->
+    <h1 class="flex justify-center items-center text-4xl font-bold mb-8">Courses</h1>
+
+    <!-- Lower Navbar -->
+    <nav class="grid grid-cols-12 gap-8 w-screen px-16">
+      <div class="flex justify-start items-start col-span-4">
+        <button class="px-4 border-r border-[#aaa]"><img src="./assets/Search.svg" alt="Search" class="w-[24px] h-[24px]"></button>
+        <div class="border-r border-[#aaa]"></div>
+        <button class="px-4"><img src="./assets/Filter.svg" alt="Filter" class="w-[24px] h-[24px]"></button>
+      </div>
+      <div class="flex justify-center items-start col-span-4">
+        <button><p class="px-2 mx-2">All</p></button>
+        <button><p class="px-2 mx-2 text-[#FF3066] pb-4 border-b-2 border-[#FF3066]">Published</p></button>
+        <button><p class="px-2 mx-2">Draft</p></button>
+        <button><p class="px-2 mx-2">Archived</p></button>
+      </div>
+      <div class="flex justify-end items-start col-span-4">
+        <div class="flex justify-center items-center">
+          <div class="bg-[#f9f9f9] border border-opacity-50 border-[#aaa] rounded-sm me-4">
+            <button class="text-sm border-r border-opacity-50 border-[#aaa] px-4 py-1">Recently</button>
+            <button class="text-sm px-4 py-1 font-bold">Alphabetically</button>
+          </div>
+          <button><img src="./assets/Grid.svg" alt="Grid" class="w-[20px] h-[20px]" /></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+</body>
+</html>
