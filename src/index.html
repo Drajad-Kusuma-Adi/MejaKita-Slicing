@@ -17,8 +17,9 @@
     }
   </style>
 </head>
-<body class="roboto-regular">
-  <header class="shadow-lg pt-8">
+<body class="roboto-regular bg-[#f9f9f9] pb-16 w-screen overflow-x-hidden">
+  <!-- Header -->
+  <header class="shadow-lg pt-8 mb-8 bg-white">
     <!-- Top Navbar -->
     <nav class="grid grid-cols-12 gap-8 w-screen px-16 mb-16">
       <div class="flex justify-start items-center col-span-8">
@@ -53,13 +54,77 @@
       <div class="flex justify-end items-start col-span-4">
         <div class="flex justify-center items-center">
           <div class="bg-[#f9f9f9] border border-opacity-50 border-[#aaa] rounded-sm me-4">
-            <button class="text-sm border-r border-opacity-50 border-[#aaa] px-4 py-1">Recently</button>
-            <button class="text-sm px-4 py-1 font-bold">Alphabetically</button>
+            <button class="transition duration-300 hover:opacity-50 text-sm border-r border-opacity-50 border-[#aaa] px-4 py-1">Recently</button>
+            <button class="transition duration-300 hover:opacity-50 text-sm px-4 py-1 font-bold">Alphabetically</button>
           </div>
           <button><img src="./assets/Grid.svg" alt="Grid" class="w-[20px] h-[20px]" /></button>
         </div>
       </div>
     </nav>
   </header>
+
+  <!-- Main Content -->
+  <main class="grid grid-cols-12 gap-8 w-screen place-items-center px-16">
+    <div class="w-[21vw] border-[0.5px] border-opacity-50 border-[#aaa] bg-white shadow-lg rounded-md col-span-4 transition duration-300 hover:scale-110 hover:cursor-pointer">
+      <img src="./assets/Course1.svg" alt="Course1" class="">
+      <div class="p-4">
+        <p class="font-semibold opacity-50">Adventure Sport</p>
+        <br>
+        <p class="font-bold">Fear Of Driving And Automatic Negative Thoughts</p>
+        <br>
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <img src="./assets/Stack.svg" alt="Stack" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">12 Lessons</p>
+          </div>
+          <div class="flex items-center">
+            <img src="./assets/Time.svg" alt="Time" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">3 Hours 30 Minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-[21vw] border-[0.5px] border-opacity-50 border-[#aaa] bg-white shadow-lg rounded-md col-span-4 transition duration-300 hover:scale-110 hover:cursor-pointer">
+      <img src="./assets/Course2.svg" alt="Course2" class="">
+      <div class="p-4">
+        <p class="font-semibold opacity-50">Sales and Operations</p>
+        <br>
+        <p class="font-bold">Work more, Earn more while sitting at your home</p>
+        <br>
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <img src="./assets/Stack.svg" alt="Stack" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">23 Lessons</p>
+          </div>
+          <div class="flex items-center">
+            <img src="./assets/Time.svg" alt="Time" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">1 Hours 30 Minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-[21vw] border-[0.5px] border-opacity-50 border-[#aaa] bg-white shadow-lg rounded-md col-span-4 transition duration-300 hover:scale-110 hover:cursor-pointer">
+      <img src="./assets/Course3.svg" alt="Course3" class="">
+      <div class="p-4">
+        <div class="flex">
+          <p class="font-semibold opacity-50 me-2">Marketing</p>
+          <span class="bg-[#28BE69] rounded-sm px-2 text-white font-bold">New</span>
+        </div>
+        <br>
+        <p class="font-bold">Foundation course to under stand about Software</p>
+        <br>
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <img src="./assets/Stack.svg" alt="Stack" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">23 Lessons</p>
+          </div>
+          <div class="flex items-center">
+            <img src="./assets/Time.svg" alt="Time" class="me-2 w-[16px] h-[16px]">
+            <p class="font-semibold opacity-50 text-xs">1 Hours 30 Minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
